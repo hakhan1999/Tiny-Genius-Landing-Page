@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header CSS  */
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-header .logo {
+    margin-left: -10px;
+}
+
+.main-header .logo img {
+    width: 200px;
+}
+
+.header-btns img {
+    width: 150px;
+}
+
+.header-btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.privacy-btn {
+    border-radius: 50px;
+    background: #00AEEF;
+    color: #FFF;
+    font-weight: 600;
+    padding: 15px 30px;
+}
+
+.global-btn {
+    border-radius: 32px;
+    background: #F60;
+    color: #FFF;
+    font-weight: 600;
+    padding: 15px 30px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 0px 30px 0px rgba(255, 102, 0, 0.20);
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.hero-image {
+    position: relative;
+}
+
+.hero-image img.shariah-logo {
+    position: absolute;
+    width: auto;
+    transform: rotate(-8.594deg);
+    right: 0;
+}
+
+.hero-image img {
+    width: 600px;
+}
+
+.header-hero-section {
+    height: 700px;
+    background: linear-gradient(271deg, #FCB69A 4.07%, rgba(254, 204, 184, 0.50) 106.09%);
+}
+
+
+.hero-section .hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+p span.first-small-heading {
+    color: #996AD2;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+p span.second-small-heading {
+    color: #0C6;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+p span.third-small-heading {
+    color: #00AEEF;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h1.main-title {
+    color: #F60;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 70px;
+}
+
+p.global-para {
+    color: #272626;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.hero-btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Why Choose Section CSS  */
+
+.why-choose-section {
+    padding: 100px 0;
+}
+
+.why-choose-section .container {
+    display: flex;
+    align-items: center;
+}
+
+.why-choose-col-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.global-heading {
+    color: #F60;
+    font-size: 56px;
+    font-weight: 800;
+}
+
+.blue-heading {
+    color: #00AEEF;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.why-choose-col-2 .icons-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.icons-row-item img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.icons-row-item p {
+    color: #272626;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-top: 10px;
+    min-height: 62px;
+}
+
+/* Videos Section CSS  */
+
+.videos-section {
+    padding: 100px 0 150px;
+    background: #F4CAAB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.videos-section .images-row {
+    display: flex;
+    gap: 25px;
+    padding: 0 10px;
+}
+
+
+.videos-section .images-row img {
+    width: 19%;
+    object-fit: cover;
+}
+
+.images-second-row {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.images-second-row img {
+    width: 293px;
+    height: 200px;
+}
+
+/* Reasons Section  */
+
+.reasons-section {
+    position: relative;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.reasons-section .reasons-heading-group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.reasons-section .reasons-col {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+    align-items: center;
+    gap: 100px;
+}
+
+.reasons-section .icons-row-item img {
+    width: 200px;
+    cursor: pointer;
+}
+
+.green-heading {
+    color: #0C6;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.book-image {
+    position: absolute;
+    top: -80px;
+    right: 100px;
+}
+
+.book-image img {
+    transform: rotate(8.72deg);
+}
+
+/* Analysis Section  */
+
+.analysis-section {
+    padding: 50px 0 100px;
+    background-color: #E8FFF3;
+}
+
+.analysis-section .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.analysis-col-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* Language Section  */
+
+.analysis-section.language-section {
+    position: relative;
+    background-color: #fff;
+}
+
+.analysis-section.language-section .container {
+    flex-direction: row-reverse;
+}
+
+.hat-image {
+    position: absolute;
+    top: -80px;
+    right: 100px;
+}
+
+/* Grades Section  */
+
+.grades-section {
+    padding: 100px 0;
+    background-color: #E1F0FF;
+}
+
+.grades-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 30px;
+    width: 33.33%;
+    fill: linear-gradient(180deg, #FFF 0%, #FFF 100%);
+    stroke-width: 2px;
+    stroke: rgba(0, 0, 0, 0.14);
+    filter: drop-shadow(0px 9px 15px rgba(0, 0, 0, 0.15));
+}
+
+.card .card-heading {
+    color: #F60;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.card .card-sub-heading {
+    color: #00AEEF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card .card-image {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 50px;
+}
+
+.card .card-image img {
+    width: 200px;
+}
+
+.card .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 0 50px;
+}
+
+.card .global-para {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card-img-1 {
+    background: linear-gradient(180deg, #8746DA 0%, #5E1DC8 100%);
+}
+
+.card-img-2 {
+    background: linear-gradient(180deg, #DA46C2 0%, #C41DC8 100%);
+}
+
+.card-img-3 {
+    background: linear-gradient(180deg, #AADA46 0%, #68C81D 100%);
+}
+
+/* About Section  */
+
+.about-section {
+    padding: 100px 0;
+}
+
+.about-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-section .about-col {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.about-section .about-content {
+    position: relative;
+}
+
+.about-para::before {
+    content: url(images/star-icon.png);
+    position: absolute;
+    left: 0;
+}
+
+.about-para {
+    padding: 20px 40px;
+    text-align: left;
+}
+
+/* Footer  */
+
+footer .footer-main {
+    position: relative;
+    padding: 100px 0;
+    background-color: #00AEEF;
+}
+
+.footer-img {
+    position: absolute;
+    top: -85px;
+    left: 45%;
+}
+
+.footer-img img {
+    width: 160px;
+}
+
+footer .footer-main .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-form input {
+    width: 600px;
+    height: 55px;
+    border: none;
+    border-radius: 42px;
+    background-color: #fff;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.footer-form input::placeholder {
+    font-family: 'Nunito', sans-serif;
+    color: #868181;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-form input:focus-visible {
+    outline: none;
+}
+
+.footer-para {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.submit-btn {
+    border-radius: 50px;
+    background: #F60;
+    box-shadow: 0px 0px 30px 0px rgba(255, 102, 0, 0.20);
+    color: #fff;
+    width: 500px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+footer .footer-heading {
+    color: #272626;
+}
+
+.copyright {
+    background-color: #F60;
+    padding: 20px 0;
+}
+
+.copyright .copyright-text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
